@@ -12,5 +12,5 @@ class CashRegister
     self.total += price*quantity
   end 
   
-  d
+  
 end 
