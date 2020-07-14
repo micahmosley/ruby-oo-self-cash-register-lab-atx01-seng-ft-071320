@@ -13,6 +13,8 @@ class CashRegister
   end 
   
   def apply_discount 
+    if discount==0 
+      puts ""
     self.total= @total-@total*@discount
   
 end 
