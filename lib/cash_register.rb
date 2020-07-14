@@ -13,6 +13,7 @@ class CashRegister
     i=0
     while (i<quantity) do
       @items.push(title)
+      i+=1
     end 
     self.total += price*quantity
   end 
