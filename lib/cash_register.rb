@@ -20,7 +20,7 @@ class CashRegister
     if discount==0 
       puts "There is no discount to apply."
     else 
-      self.total= @total-@total*@discount
+      self.total= @total-@total*@discount/100
       puts "After the discount, the total comes to #{@total}."
     end 
   end 
