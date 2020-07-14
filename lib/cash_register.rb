@@ -4,6 +4,7 @@ class CashRegister
   
   def initialization (discount=0)
     @total=0 
+    @discount=discount/100
   end 
   
   
